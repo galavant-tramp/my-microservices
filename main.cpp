@@ -25,7 +25,7 @@ int main()
     ([](){
         crow::json::wvalue response;
         response["message"] = "Welcome to C++ Microservice";
-        response["version"] = "1.0.0";
+        response["version"] = "2.0.0";
         return response;
     });
 
